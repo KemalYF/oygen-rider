@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TP2 Register</title>
+        <link rel="SHORTCUT ICON" href="Image/logo.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="container container-flex">
+                <div class="logo-cont">
+                    <img src="./Image/logo.png" alt="logo " >
+                </div>
+                <div class="nav-cont">
+                    <p>
+                        <a href="./index.html">Home</a>
+			            <a href="./index.html#about">About</a>
+                        <a href="./index.html#gallery">Gallery</a>
+			            <a href="./index.html#multimedia">Multimedia</a>
+                        <a href="./login.html">Login</a>
+                        <a href="./register.html">Register</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="article">
+                <h1>Register</h1>
+            <hr>
+            <form action="" method="POST">
+                <fieldset>
+                    <legend>YOUR PERSONAL DETAILS</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="Fist-Name">
+                                    First Name <span>*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <input name="first-name" required="" placeholder="First Name" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Last-Name">
+                                    Last Name <span>*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <input name="last-name" placeholder="Last Name" required="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="birthday">
+                                    Birthday <span>*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <select name="hari">
+                                    <option>1</option><option>2</option><option>3</option><option>4</option>
+                                    <option>5</option><option>6</option><option>7</option><option>8</option>
+                                    <option>9</option><option>10</option><option>11</option><option>12</option>
+                                    <option>13</option><option>14</option><option>15</option><option>16</option>
+                                    <option>17</option><option>18</option><option>19</option><option>20</option>
+                                    <option>21</option><option>22</option><option>23</option><option>24</option>
+                                    <option>25</option><option>26</option><option>27</option><option>28</option>
+                                    <option>29</option><option>30</option>
+                                </select>
+                                <select name="bulan">
+                                    <option>1</option><option>2</option><option>3</option><option>4</option>
+                                    <option>5</option><option>6</option><option>7</option><option>8</option>
+                                    <option>9</option><option>10</option><option>11</option><option>12</option>
+                                </select>
+                                <select name="tahun">
+                                    <option>1990</option><option>1991</option><option>1992</option><option>1993</option>
+                                    <option>1994</option><option>1995</option><option>1996</option><option>1997</option>
+                                    <option>1998</option><option>1999</option><option>2000</option><option>2001</option>
+                                    <option>2002</option><option>2003</option><option>2004</option><option>2005</option>
+                                    <option>2006</option><option>2007</option><option>2008</option><option>2009</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="gender">
+                                    Gender <span>*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <input required="" type="radio" id="male" name="gender" value="male">
+                                <label for="male">Men</label><br>
+                                <input required="" type="radio" id="female" name="gender" value="female">
+                                <label for="female">Women</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">
+                                    Email<span>*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <input required="" name="email" type="text" placeholder="Email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="phone">
+                                    Phone<span>*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <input required="" name="no telp" type="tel" placeholder="Phone">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="addres">
+                                    Address <span>*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <textarea required="" name="Address" id="" cols="30" placeholder="Address" rows="5"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>YOUR ACCOUNT</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="username">
+                                    Username <span>*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <input required="" name="Username" placeholder="Input your Username" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="password">
+                                    Password <span>*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <input required="" name="password" placeholder="Input your Password" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="confirm-password">
+                                    Password Confirm <span>*</span>
+                                </label>
+                            </td>
+                            <td>
+                                <input required="" name="confirm-password" placeholder="Input your Password" type="password">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br>
+
+                <label for="term">
+                    <input required="" type="checkbox" name="term" id="">
+                    I have read and agree Terms and condition <span>*</span>
+                </label>
+
+            <div class="submit1">
+                <button type="reset">Cancel</button>
+                <button type="submit">Register</button>
+            </div>
+            </form>
+
+            </div>
+        </div>
+        <div class="footer">
+            <p>2021 | Kemal Yazid Fauzi | 1900321</p>
+        </div>
+
+    </body>
+</html>
